@@ -2,28 +2,35 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Poppins", sans-serif;
+
 }
-.banner , .container {
+.banner   {
     display: flex;
     align-items: center;
     background-color: black;
     color: white;
     border-radius: 10px;
-    margin: 50px auto;
-    max-width: 1280px;
-    margin: auto;
-
-
+    margin: 50px;
  
+ 
+}
+.container{
+max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 #h2{
     font-size: 70px;
     font-weight: bold;
+    line-height: 1.3;
 }
 #p1{
     font-size: 16px;
     font-weight: 400;
+    max-width: 65%;
+    line-height: 1.2;
 }
 .btn{
     background-color: #DD0000;
@@ -41,4 +48,7 @@
 }
 .banner-description{
     padding-left: 45px;
+}
+.banner-img img{
+    display: block;
 }
