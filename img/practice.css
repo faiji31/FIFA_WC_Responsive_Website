@@ -1,0 +1,16 @@
+.box-sizing{
+    background-color: purple;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+}
+.content-box{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+.border-box{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+}
