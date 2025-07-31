@@ -52,3 +52,24 @@ max-width: 1280px;
 .banner-img img{
     display: block;
 }
+@media screen and (max-width:576px) {
+    
+    .banner{
+        display: grid;
+        justify-content: center;
+    }
+   #h2{
+    font-size: 30px;
+    text-align: center;
+   } 
+   #p1{
+    font-size: 13px;
+    text-align: center;
+    max-width: 100%;
+    line-height: 1.7;
+   }
+   .banner-description{
+    justify-items: center;
+    
+   }
+}
