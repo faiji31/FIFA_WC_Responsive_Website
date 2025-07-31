@@ -30,7 +30,7 @@ max-width: 1280px;
     font-size: 16px;
     font-weight: 400;
     max-width: 65%;
-    line-height: 1.2;
+    line-height: 1.7;
 }
 .btn{
     background-color: #DD0000;
@@ -72,4 +72,29 @@ max-width: 1280px;
     justify-items: center;
     
    }
+   
+}
+.left{
+    background-color: black;
+    max-width: 25%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 40px 40px;
+    gap: 10px;
+    
+}
+.pry-btn{
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.pry-btn:hover{
+    background-color:#DD0000;
+    color: white ;
+}
+.matches{
+    margin-top: 40px;
 }
