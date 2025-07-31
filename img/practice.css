@@ -1,16 +1,28 @@
-.box-sizing{
-    background-color: purple;
-    height: 700px;
-    width: 700px;
-    margin: auto;
+.box-sizing {
+  background-color: purple;
+  height: 700px;
+  width: 700px;
+  margin: auto;
+  gap: 10px;
+  /* usig grid */
+  /* display: grid;
+    place-content:center; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.content-box{
-    background-color: red;
-    height: 300px;
-    width: 300px;
+.content-box {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%); */
 }
-.border-box{
-    background-color: green;
-    height: 300px;
-    width: 300px;
+.border-box {
+  background-color: green;
+  height: 300px;
+  width: 300px;
 }
